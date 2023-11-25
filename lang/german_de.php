@@ -1,8 +1,8 @@
 <?php
 //
 // German Language Pack
-// by Klaus, DL5RFK
-// 08-Aug-2017
+// 08-Aug-2017 - Initial translations (Klaus, DL5RFK)
+// 25-Nov-2023 - Added translations for M17 mode (Bjoern, DL7RAY)
 //
 $lang = array (
   // Banner texts
@@ -27,6 +27,7 @@ $lang = array (
   "ysf_config"                  =>  "Yaesu System Fusion Konfiguration",
   "p25_config"                  =>  "P25 Konfiguration",
   "nxdn_config"                 =>  "NXDN Konfiguration",
+  "m17_config"                  =>  "M17 Konfiguration",
   "pocsag_config"               =>  "POCSAG Konfiguration",
   "mobilegps_config"            =>  "Mobile GPS Configuration",
   "wifi_config"                 =>  "Wlan Konfiguration",
@@ -51,6 +52,7 @@ $lang = array (
   "ysf_mode"                    =>  "YSF Modus",
   "p25_mode"                    =>  "P25 Modus",
   "nxdn_mode"                   =>  "NXDN Modus",
+  "m17_mode"                    =>  "M17 Modus",
   "mmdvm_display"               =>  "MMDVM Display Typ",
   "mode_hangtime"               =>  "Mode Nachlaufzeit",
   // Config Page - General Configuration
@@ -91,8 +93,10 @@ $lang = array (
   "p25_startup_host"            =>  "P25 Startup Host",
   "p25_nac"                     =>  "P25 NAC",
   // Config Page - NXDN Configuration
-  "nxdn_startup_host"            =>  "NXDN Startup Host",
-  "nxdn_ran"                     =>  "NXDN RAN",
+  "nxdn_startup_host"           =>  "NXDN Startup Host",
+  "nxdn_ran"                    =>  "NXDN RAN",
+  // Config Page - M17 Configuration
+  "m17_startup_reflector"       =>  "M17 Startup Reflektor",
   // Config Page - MobileGPS Configuration
   "mobilegps_enable"            =>  "MobileGPS Enable",
   "mobilegps_port"              =>  "GPS Port",
@@ -119,6 +123,8 @@ $lang = array (
   "p25_net"                     =>  "P25 Netzwerk",
   "nxdn_radio"                  =>  "NXDN Radio",
   "nxdn_net"                    =>  "NXDN Netzwerk",
+  "m17_repeater"                =>  "M17 Relais",
+  "m17_net"                     =>  "M17 Netzwerk",
   // Dashboard Front Page - Calls
   "time"                        =>  "Zeit",
   "mode"                        =>  "Mode",
